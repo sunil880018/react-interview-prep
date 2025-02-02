@@ -1,4 +1,4 @@
-// Using a component
+// Using a component in react
 
 function Profile() {
   const avatar = 'https://i.imgur.com/MK3eW3Am.jpg';
