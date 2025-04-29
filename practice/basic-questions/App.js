@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
 
-// export default function Testing() {
-//   const [counter, setCount] = useState(0);
-//   useEffect(() => {
-//     if (counter === 5)
-//       setTimeout(() => {
-//         setCount(0);
-//       }, 2000);
-//   }, [counter]); // Runs when `counter` changes
-//   return (
-//     <div style={{ textAlign: 'center', marginTop: '20px' }}>
-//       <h1>Counter Game</h1>
-//       <h2>{counter}</h2>
-//       {counter === 5 && <h2>Game Over</h2>}
-//       <button onClick={() => setCount(counter + 1)}>Click me</button>
-//     </div>
-//   );
-// }
+export default function Testing() {
+  const [counter, setCount] = useState(0);
+  useEffect(() => {
+    if (counter === 5)
+      setTimeout(() => {
+        setCount(0);
+      }, 2000);
+  }, [counter]); // Runs when `counter` changes
+  return (
+    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+      <h1>Counter Game</h1>
+      <h2>{counter}</h2>
+      {counter === 5 && <h2>Game Over</h2>}
+      <button onClick={() => setCount(counter + 1)}>Click me</button>
+    </div>
+  );
+}
 
 // Question 1: Create a React component where clicking a button toggles between "Hello" and "Goodbye".
 
