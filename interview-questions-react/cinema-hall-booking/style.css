@@ -1,0 +1,58 @@
+/* Base container */
+.main-container {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button section */
+.button-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.button-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Row container for seats */
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Base seat styling */
+.seat {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #444;
+    background-color: lightgray;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Correct class names expected by tests */
+.selected-seat {
+    background-color: green;
+    color: white;
+}
+
+.disabled-seat {
+    background-color: darkgray;
+    color: white;
+    pointer-events: none;
+}
+
+.seat:hover {
+    opacity: 0.8;
+}
