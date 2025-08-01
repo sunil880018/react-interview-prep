@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    -webkit-font-smoothing: auto;
+    -moz-font-smoothing: auto;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: auto;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.table-body {
+    margin: 10px;
+    padding: 10px 20px;
+    border-collapse: collapse;
+    width: 80%;
+    font-family: Arial, sans-serif;
+}
+
+thead {
+    font-weight: bold;
+}
+
+td,
+th {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    text-align: left;
+}
+
+.footer-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.total-page {
+    display: flex;
+}
+
+.row-page {
+    display: flex;
+}
+
+button,
+select {
+    padding: 0px 20px;
+    margin-left: 10px;
+    font-size: 15px;
+}
