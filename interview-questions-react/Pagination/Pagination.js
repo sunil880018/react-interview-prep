@@ -25,6 +25,7 @@ const Pagination = () => {
 
       <div className="button-container">
         <button
+          id="previous"
           disabled={page === 1}
           onClick={() => setPage((prev) => Math.max(prev - 1, 1))}
         >
@@ -42,6 +43,7 @@ const Pagination = () => {
         ))}
 
         <button
+          id="next"
           disabled={page === TOTAL_PAGES}
           onClick={() => setPage((prev) => Math.min(prev + 1, TOTAL_PAGES))}
         >
